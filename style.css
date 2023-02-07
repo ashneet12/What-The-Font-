@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+*{
+  margin: 0;
+  padding:0;
+}
+.text{
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  background-color:#fffff0;
+}
+.text h1{
+  font-family: 'Unbounded', cursive;
+  color: #bf7c8c;
+  text-decoration: underline;
+
+}
+.text h2{
+  font-family: 'Lora', serif;
+  text-decoration: underline;
+}
+p{
+  font-family: 'Lora', serif;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.lyrics{
+  border: 2px solid black;
+  width: 600px;
+  margin: auto;
+  padding: 22px 2px;
+  background-color: #fae6f7 ;
+}
+
+.lyrics pre{
+  font-size: 1.6rem;
+/*   font-family: 'Josefin Sans', sans-serif; */
+  font-family: 'Dancing Script', cursive;
+}
+.lyrics pre i{
+  font-family: 'Pacifico', cursive;
+}
+.main{
+  text-shadow: 2px 1px #f2839d;
+}
+.lyrics pre b{
+  font-family: 'Great Vibes', cursive;
+  font-size:1.8rem;
+  font-weight:thin;
+}
+
+.lyrics pre strong{
+  font-family: 'Caveat', cursive;
+}
